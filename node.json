@@ -1,0 +1,6 @@
+{
+    "run_list": [
+        "recipe[default]",
+        "recipe[user_accounts]",
+    ]
+}
