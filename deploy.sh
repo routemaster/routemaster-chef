@@ -18,8 +18,10 @@ ssh "$REMOTE" sudo sh -e <<EOF
     if [ "$1" != "--update" ]; then
         # Install base dependencies
         aptitude update
-        aptitude install -y -q=9 ruby rubygems ruby-dev build-essential git-core
-        gem install chef berkshelf
+        aptitude install -y -q=9 ruby1.9.1 rubygems1.9.1 ruby1.9.1-dev \
+                                 build-essential git-core
+        gem1.9.1 install chef
+        gem1.9.1 install berkshelf
     fi
 
     cd "$TARGET_PATH"
@@ -27,6 +29,7 @@ ssh "$REMOTE" sudo sh -e <<EOF
     # Autoinstall dependent cookbooks with berks
     berks install --path cookbooks
 
+    mkdir -p /etc/chef
     mv solo.rb /etc/chef/solo.rb
     # Run chef-solo
     chef-solo -j solo.json & >> chef.log
