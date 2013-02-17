@@ -11,8 +11,10 @@ sudo "ubuntu" do
     nopasswd true
 end
 
-package "zsh" do
-    action :install
+for p in ["zsh", "tmux", "htop", "tree", "vim-nox"]
+    package p do
+        action :install
+    end
 end
 
 user_account "pipeep" do # Benjamin Woodruff
