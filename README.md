@@ -6,6 +6,19 @@ Routemaster (Server Scripts)
 We use these scripts to provision and configure our EC2 instance that runs
 RouteMaster. Everything is managed with [Chef](http://www.opscode.com/chef/).
 
+Our Current Instance
+====================
+
+Project members should be able to log into the development server to test their
+code using their ssh keys:
+
+    ssh yourusername@54.235.111.3
+
+If you are unsure of what your username is, look in
+`cookbooks/routemaster/recipes/user_accounts.rb`. If you would like to modify
+something about the configuration of your account, submit an issue or pull
+request.
+
 Installing
 ==========
 
