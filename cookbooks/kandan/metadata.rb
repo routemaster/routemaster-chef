@@ -1,0 +1,6 @@
+name         "kandan"
+description  "A chat application like basecamp for group communication"
+license      "GNU AGPL 3.0"
+version      "1.1.0"
+supports     "ubuntu"
+supports     "debian"
