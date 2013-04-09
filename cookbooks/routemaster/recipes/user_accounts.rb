@@ -102,7 +102,13 @@ user_account "ohhhgreat" do # Brandon Hurst
         "mCNbJYc6hlRUq+DPTQOOXkiz5OMp17RjEOSPxATiiaOjMx/BofE82ri+WDD8twcD+bLt6"\
         "1XzYZPU4bUMYCIQB9ymfRNm3zTP/Cyu6cJPTLI2m7I6lyZU9M/YRDcY1Pko4DAllnFDmJ"\
         "bsUsrI5ySlqAkp130UXVcTaircNovJZBdLH/+syGxKfnDzXZMSZSxaQ0mC24CpkpVCs0F"\
-        "sxaRmvL9o4kKX+SIHK9HGhrmLQhVG5uPw== Brandon@BRANDON-HP"
+        "sxaRmvL9o4kKX+SIHK9HGhrmLQhVG5uPw== Brandon@BRANDON-HP",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA5zSTBuKLRRnyPx4ekgSQh0IXS/cMAAxmI"\
+        "AncIu48FDc5jID5nZ+GNDPVAMiJ6gSpGqnKZEMRBUWW9DfhMV0jd1irRSUroyGA1TGTub"\
+        "tLM3V/hKKmab5Jn4Vyy4CJB9zkh5OXTRCC6SHh0NLTev1ffILuuVswgW+puX3Z58QFzpc"\
+        "xdRUj71AYb3yBDwdaorONPMU9shl+s1KyXY+AJDMoTzJKqfa7zmLmEJVZxwIjKlO10Y6P"\
+        "X/U0GA6skv6tESOeb6XREUEdzPXhrddXGf5osZvkpFxGOoFJLIcdIDUOJPbEf14BF3oM1"\
+        "bMep29Km+UOoC0MbGTbmj2MFo378Zziew== qq@QQ-HP"
     ]
 end
 
